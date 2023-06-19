@@ -9,7 +9,7 @@ function PokemonCard({ pokemon }) {
   }
   return (
     <Card>
-      <div>
+      <div className="pokemon-card">
         <div className="image" onClick={handleClick}>
           <img src={showImage ? pokemon.sprites.front : pokemon.sprites.back} alt={pokemon.name} />
         </div>
